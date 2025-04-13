@@ -103,3 +103,4 @@ C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4Tests\obj\Debug\net8.0\refint\T
 C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4Tests\obj\Debug\net8.0\Tutorial4Tests.pdb
 C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4Tests\obj\Debug\net8.0\Tutorial4Tests.genruntimeconfig.cache
 C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4Tests\obj\Debug\net8.0\ref\Tutorial4Tests.dll
+C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4Tests\obj\Debug\net8.0\Tutorial4Tests.sourcelink.json

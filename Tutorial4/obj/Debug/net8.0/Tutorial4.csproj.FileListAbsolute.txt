@@ -12,3 +12,4 @@ C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4\obj\Debug\net8.0\refint\Tutori
 C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4\obj\Debug\net8.0\Tutorial4.pdb
 C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4\obj\Debug\net8.0\Tutorial4.genruntimeconfig.cache
 C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4\obj\Debug\net8.0\ref\Tutorial4.dll
+C:\nauka\apbd\Tutorial4Update\Tutorial4\Tutorial4\obj\Debug\net8.0\Tutorial4.sourcelink.json
