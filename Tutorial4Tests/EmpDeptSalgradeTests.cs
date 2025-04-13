@@ -9,7 +9,7 @@ public class EmpDeptSalgradeTests
     {
         var emps = Database.GetEmps();
 
-        List<Emp> result = null; 
+        List<Emp> result = emps.Where(e => e.Job == "SALESMAN").ToList();
 
         Assert.Equal(2, result.Count);
         Assert.All(result, e => Assert.Equal("SALESMAN", e.Job));
@@ -22,7 +22,10 @@ public class EmpDeptSalgradeTests
     {
         var emps = Database.GetEmps();
 
-        List<Emp> result = null; 
+        List<Emp> result = emps
+            .Where(e => e.DeptNo == 30)
+            .OrderByDescending(e => e.Sal)
+            .ToList();
 
         Assert.Equal(2, result.Count);
         Assert.True(result[0].Sal >= result[1].Sal);
@@ -36,7 +39,10 @@ public class EmpDeptSalgradeTests
         var emps = Database.GetEmps();
         var depts = Database.GetDepts();
 
-        List<Emp> result = null; 
+        List<Emp> result = (from e in emps
+            from d in depts
+            where e.DeptNo == d.DeptNo && d.Loc == "CHICAGO"
+            select e).ToList();
 
         Assert.All(result, e => Assert.Equal(30, e.DeptNo));
     }
